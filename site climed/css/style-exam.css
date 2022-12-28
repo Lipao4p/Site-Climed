@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster+Two&family=Russo+One&family=Satisfy&family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu__box {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    list-style: none;
+    text-align: center;
+    background-color: rgba(31, 207, 238, 0.17);
+    margin: 0;
+    max-width: 2600px;
+}
+
+.menu__box a {
+
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    transition-property: none;
+    color: rgb(9, 114, 105, 0.76);
+    font-size: 25px;
+}
+
+.menu__box a:hover {
+
+    color: rgba(240, 129, 3, 0.952);
+
+}
+
+
+.chamada-exame{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 35px;
+    margin: 15px;
+}
+.exames{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: stretch;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+
+    
+}
+
+.t-exam{
+
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+
+
+    box-shadow: rgba(31, 207, 238, 0.17) 0px -23px 25px 0px inset,
+        rgba(17, 196, 209, 0.116) 0px -36px 30px 0px inset,
+        rgba(21, 195, 226, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.botao-mapa {
+    background-color: rgba(4, 172, 190, 255);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 1px 2px 1px black;
+    cursor: pointer;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: 18px;
+}
+
+
+.botao-fale {
+    background-color: rgba(4, 172, 190, 255);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 1px 2px 1px black;
+    cursor: pointer;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: 18px;
+}
+
+.botao-mapa:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-7px);
+    color: rgba(240, 129, 3, 0.952);
+    text-shadow: 1px 2px 1px rgb(0, 0, 0);
+
+
+}
+
+.botao-fale:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-7px);
+    color: rgba(240, 129, 3, 0.952);
+}
+footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(31, 207, 238, 0.17);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+
+}
+
+footer a {
+    color: rgba(12, 143, 231, 0.534);
+    font-size: 25px;
+
+}
+
+footer a:hover {
+    transform: scale(1.5);
+    color: rgba(240, 129, 3, 0.952);
+}
