@@ -5,7 +5,7 @@
 
 <h2>✏️ Visão Geral</h2>
 
-Projeto em desenvolvimento uso da clinica para uso de pacientes e novos pacientes em potencial.
+Projeto em desenvolvimento para uso da clinica para uso de pacientes e novos pacientes em potencial.
 
 <h2>💻 Tecnologias:</h2>
 HTML CSS
