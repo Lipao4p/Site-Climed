@@ -19,7 +19,7 @@
   text-align: center;
   background-color: rgba(31, 207, 238, 0.17);
   margin: 0;
-  max-width: 2600px; 
+  max-width: 2600px;
 }
 
 .menu__box a {
@@ -64,7 +64,6 @@
   color: black;
   font-size: 20px;
   text-align: center;
-  height: 100%;
   align-items: center;
 
 }
@@ -76,150 +75,172 @@
 }
 
 
-.botao-cartao {
-  background-color: rgba(4, 172, 190, 255);
-  border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
-      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-      rgba(0, 0, 0, 0.09) 0px 8px 4px,
-      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  box-sizing: border-box;
-  color: white;
-  text-shadow: 1px 2px 1px black;
-  cursor: pointer;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  outline: none;
-  outline: 0;
-  padding: 10px 25px;
-  text-align: center;
-  transform: translateY(0);
-  transition: transform 150ms, box-shadow 150ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  margin: 5px;
-  font-size: 25px;
-}
 
-.botao-cartao:hover {
-  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-  transform: translateY(-7px);
-  color: rgba(240, 129, 3, 0.952);
-}
-
-.botao-mapa {
-  background-color: rgba(4, 172, 190, 255);
-  border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
-      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-      rgba(0, 0, 0, 0.09) 0px 8px 4px,
-      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  box-sizing: border-box;
-  color: white;
-  text-shadow: 1px 2px 1px black;
-  cursor: pointer;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  outline: none;
-  outline: 0;
-  padding: 10px 25px;
-  text-align: center;
-  transform: translateY(0);
-  transition: transform 150ms, box-shadow 150ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  font-size: 18px;
-}
-
-
-.botao-fale {
-  background-color: rgba(4, 172, 190, 255);
-  border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
-      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-      rgba(0, 0, 0, 0.09) 0px 8px 4px,
-      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  box-sizing: border-box;
-  color: white;
-  text-shadow: 1px 2px 1px black;
-  cursor: pointer;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  outline: none;
-  outline: 0;
-  padding: 10px 25px;
-  text-align: center;
-  transform: translateY(0);
-  transition: transform 150ms, box-shadow 150ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  font-size: 18px;
-}
-.botao-mapa:hover { 
-  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-  transform: translateY(-7px);
-  color: rgba(240, 129, 3, 0.952);
-
-}
-.botao-fale:hover {
-  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-  transform: translateY(-7px);
-  color: rgba(240, 129, 3, 0.952);
-}
 
 
 
 footer {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-  align-items: center;
-  justify-items: center;
-  background-color: rgba(31, 207, 238, 0.17);
-  
-  bottom: 0;
-  width: 100%;
-  padding: auto;
 
- 
+  background-color: rgba(31, 207, 238, 0.17);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 450px;
+
 }
 
 footer a {
-  color: rgba(12, 143, 231, 0.534);
+  color: rgb(9, 114, 105, 0.76);
+  text-decoration: none;
   font-size: 25px;
 
+
+}
+
+footer i {
+  font-size: 25px;
 }
 
 footer a:hover {
-  transform: scale(1.5);
+
   color: rgba(240, 129, 3, 0.952);
 }
-.fundo{
-background-color: rgba(109, 179, 240, 0.719);
 
-
-}
-@media screen and (max-width: 860px){
-.especialidades{
+.grid1 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  text-align: center;
-  height: 100%;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.fundo{
-background: none;
+.mapa {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  justify-content: space-around;
+  padding: 15px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  color: rgb(9, 114, 105, 0.76);
+
+}
+
+.info2 {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  color: rgb(9, 114, 105, 0.76);
+}
+
+.info1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding: 10px;
+  color: rgb(9, 114, 105, 0.76);
+  text-align: center;
+}
+
+.info1 a {
+  font-size: 25px;
+}
+
+.icones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.info3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: right;
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding: 10px;
+  color: rgb(9, 114, 105, 0.76);
+
+  list-style: none;
+}
+
+.fundo {
+  background-color: rgba(109, 179, 240, 0.719);
+
+}
+
+@media (max-width: 850px) {
+  .especialidades {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  .grid1  {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  
+}
+footer {
+  height: 750px;
+
 }
 }
+  @media screen and (max-width: 767px) {
+    .menu__box a {
+      font-size: 15px;
+
+    }
+
+    .menu__box {
+      gap: 10px;
+
+    }
+
+    .chamada {
+      font-size: 20px;
+      text-align: center;
+
+    }
+
+    .especialidades {
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 15px;
+      text-align: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px;
+
+
+    }
+
+    .especialidades img {
+      max-width: 80px;
+    }
+
+    .mapa {
+      width: 100%;
+    }
+  
+    .info3 {
+      text-align: center;
+    }
+  
+
+  }
+
+
+

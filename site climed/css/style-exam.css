@@ -42,7 +42,7 @@
 }
 
 
-.chamada-exame{
+.chamada-exame {
 
     display: flex;
     justify-content: center;
@@ -54,23 +54,25 @@
     font-size: 35px;
     margin: 15px;
 }
-.exames{
+
+.exames {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: stretch;
-    font-size: 30px;
+
     text-align: center;
     align-items: center;
     margin-top: 30px;
 
-    
+
 }
 
-.t-exam{
+.t-exam {
 
     padding: 10px;
     border-radius: 30px;
     margin: 10px;
+    font-size: 30px;
 
 
     box-shadow: rgba(31, 207, 238, 0.17) 0px -23px 25px 0px inset,
@@ -155,27 +157,164 @@
     transform: translateY(-7px);
     color: rgba(240, 129, 3, 0.952);
 }
+
 footer {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center;
+    
     background-color: rgba(31, 207, 238, 0.17);
     bottom: 0;
     left: 0;
     width: 100%;
-  
-
+    height: 450px;
+    
 }
 
 footer a {
-    color: rgba(12, 143, 231, 0.534);
+    color: rgb(9, 114, 105, 0.76);
+    text-decoration: none;
     font-size: 25px;
+   
 
+}
+footer i{
+    font-size: 25px;
 }
 
 footer a:hover {
-    transform: scale(1.5);
+   
     color: rgba(240, 129, 3, 0.952);
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    justify-content: space-around;
+    padding: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    color: rgb(9, 114, 105, 0.76);
+
+}
+.info2{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(9, 114, 105, 0.76);
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 10px;
+    color: rgb(9, 114, 105, 0.76);
+    text-align: center;
+}
+.info1 a{
+    font-size: 25px;
+}
+
+.icones {
+   display: grid;
+    grid-template-columns: repeat(3,1fr);
+   text-align: center;
+   align-items: center;
+   
+    
+}
+.info3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 10px;
+    color: rgb(9, 114, 105, 0.76);
+    
+    list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+    .menu__box a {
+        font-size: 15px;
+
+    }
+
+    .menu__box {
+        gap: 10px;
+
+    }
+
+    .chamada {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .especialidade {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: stretch;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+
+
+    }
+
+    .banner1 {
+        font-size: 18px;
+    }
+
+    .exame-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: stretch;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .grid-clinica {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: stretch;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .botao-fale,
+    .botao-mapa {
+        font-size: 18px;
+    }
+
+  .grid1  {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      
+    }
+    .mapa{
+    width: 100%;
+    }
+    .info3{
+        text-align: center;
+    }
+    footer{
+        height: 750px;
+    }
+
+
 }
