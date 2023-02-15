@@ -13,5 +13,5 @@ Projeto em desenvolvimento para uso da clinica para uso de pacientes e novos pac
 <h2>💻 Tecnologias:</h2>
 HTML CSS 
 <h2>💡Conclusão</h2>
-Esta sendo um trabalho muito gratificante participar da contrução deste site, um desafio que sonhei em participar!
+Esta sendo um trabalho muito gratificante participar da contrução deste site, um desafio que sonhei em participar!<b>
 Notar a evolução comparado aos projetos anteriores é o que mais me inspira a continuar!
